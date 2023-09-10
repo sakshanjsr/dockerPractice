@@ -55,16 +55,16 @@ public class baseClass {
 //			System.out.println("No VNC URL : "+url );
 			
 			
-			DesiredCapabilities dc = new DesiredCapabilities();
-			dc.setBrowserName("chrome");
-			dc.setPlatform(Platform.LINUX);
-			URL url = new URL("http://localhost:4444/wd/hub");
-			driver = new RemoteWebDriver(url, dc);
-			System.out.println("CHROME Driver Initialized");
+//			DesiredCapabilities dc = new DesiredCapabilities();
+//			dc.setBrowserName("chrome");
+//			dc.setPlatform(Platform.LINUX);
+//			URL url = new URL("http://localhost:4444/wd/hub");
+//			driver = new RemoteWebDriver(url, dc);
+//			System.out.println("CHROME Driver Initialized");
 			
 			
-//			WebDriverManager.chromedriver().setup();
-//			driver = new ChromeDriver();
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
 			
 		}if(browser.equalsIgnoreCase("firefox")) {
 			DesiredCapabilities dc = new DesiredCapabilities();
