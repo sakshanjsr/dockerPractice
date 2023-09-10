@@ -72,6 +72,8 @@
 	    <version>5.5.0</version>
 	</dependency>
 
+
+
   </dependencies>
 
   <build>
@@ -147,5 +149,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
+      <finalName>allurecucumberProject_Docker</finalName>
   </build>
 </project>
