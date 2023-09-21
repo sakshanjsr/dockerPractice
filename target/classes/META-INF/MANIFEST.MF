@@ -1,0 +1,60 @@
+Manifest-Version: 1.0
+Built-By: Sanjay Prasad
+Build-Jdk: 17.0.7
+Class-Path: lib/cucumber-java-7.13.0.jar lib/cucumber-core-7.13.0.jar li
+ b/cucumber-gherkin-7.13.0.jar lib/cucumber-gherkin-messages-7.13.0.jar 
+ lib/tag-expressions-5.0.1.jar lib/cucumber-expressions-16.1.2.jar lib/d
+ atatable-7.13.0.jar lib/cucumber-plugin-7.13.0.jar lib/docstring-7.13.0
+ .jar lib/html-formatter-20.3.1.jar lib/junit-xml-formatter-0.2.0.jar li
+ b/ci-environment-9.2.0.jar lib/apiguardian-api-1.1.2.jar lib/cucumber-t
+ estng-7.13.0.jar lib/allure-cucumber7-jvm-2.21.0.jar lib/allure-java-co
+ mmons-2.21.0.jar lib/allure-model-2.21.0.jar lib/gherkin-26.2.0.jar lib
+ /messages-22.0.0.jar lib/allure-testng-2.23.0.jar lib/allure-test-filte
+ r-2.23.0.jar lib/testng-7.7.1.jar lib/slf4j-api-1.7.36.jar lib/jcommand
+ er-1.82.jar lib/jquery-3.6.1.jar lib/selenium-java-4.10.0.jar lib/selen
+ ium-api-4.10.0.jar lib/selenium-chrome-driver-4.10.0.jar lib/auto-servi
+ ce-annotations-1.0.1.jar lib/auto-service-1.0.1.jar lib/auto-common-1.2
+ .jar lib/guava-31.1-jre.jar lib/failureaccess-1.0.1.jar lib/listenablef
+ uture-9999.0-empty-to-avoid-conflict-with-guava.jar lib/jsr305-3.0.2.ja
+ r lib/checker-qual-3.12.0.jar lib/error_prone_annotations-2.11.0.jar li
+ b/j2objc-annotations-1.3.jar lib/selenium-chromium-driver-4.10.0.jar li
+ b/selenium-json-4.10.0.jar lib/selenium-manager-4.10.0.jar lib/selenium
+ -devtools-v112-4.10.0.jar lib/selenium-devtools-v113-4.10.0.jar lib/sel
+ enium-devtools-v114-4.10.0.jar lib/selenium-devtools-v85-4.10.0.jar lib
+ /selenium-edge-driver-4.10.0.jar lib/selenium-firefox-driver-4.10.0.jar
+  lib/selenium-http-4.10.0.jar lib/failsafe-3.3.1.jar lib/selenium-ie-dr
+ iver-4.10.0.jar lib/selenium-remote-driver-4.10.0.jar lib/netty-buffer-
+ 4.1.92.Final.jar lib/netty-codec-http-4.1.92.Final.jar lib/netty-codec-
+ 4.1.92.Final.jar lib/netty-handler-4.1.92.Final.jar lib/netty-common-4.
+ 1.92.Final.jar lib/netty-transport-classes-epoll-4.1.92.Final.jar lib/n
+ etty-transport-classes-kqueue-4.1.92.Final.jar lib/netty-transport-nati
+ ve-unix-common-4.1.92.Final.jar lib/netty-transport-4.1.92.Final.jar li
+ b/netty-resolver-4.1.92.Final.jar lib/opentelemetry-api-1.26.0.jar lib/
+ opentelemetry-context-1.26.0.jar lib/opentelemetry-exporter-logging-1.2
+ 6.0.jar lib/opentelemetry-sdk-metrics-1.26.0.jar lib/opentelemetry-exte
+ nsion-incubator-1.26.0-alpha.jar lib/opentelemetry-sdk-logs-1.26.0-alph
+ a.jar lib/opentelemetry-api-logs-1.26.0-alpha.jar lib/opentelemetry-api
+ -events-1.26.0-alpha.jar lib/opentelemetry-sdk-common-1.26.0.jar lib/op
+ entelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar lib/opentelemetr
+ y-sdk-extension-autoconfigure-1.26.0-alpha.jar lib/opentelemetry-sdk-tr
+ ace-1.26.0.jar lib/opentelemetry-sdk-1.26.0.jar lib/opentelemetry-semco
+ nv-1.26.0-alpha.jar lib/byte-buddy-1.14.4.jar lib/commons-exec-1.3.jar 
+ lib/async-http-client-2.12.3.jar lib/async-http-client-netty-utils-2.12
+ .3.jar lib/netty-codec-socks-4.1.60.Final.jar lib/netty-handler-proxy-4
+ .1.60.Final.jar lib/netty-transport-native-epoll-4.1.60.Final-linux-x86
+ _64.jar lib/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar l
+ ib/reactive-streams-1.0.3.jar lib/netty-reactive-streams-2.0.4.jar lib/
+ jakarta.activation-1.2.2.jar lib/selenium-safari-driver-4.10.0.jar lib/
+ selenium-support-4.10.0.jar lib/webdrivermanager-5.5.0.jar lib/gson-2.1
+ 0.1.jar lib/docker-java-3.3.3.jar lib/docker-java-core-3.3.3.jar lib/do
+ cker-java-api-3.3.3.jar lib/jackson-annotations-2.10.3.jar lib/commons-
+ io-2.6.jar lib/commons-compress-1.21.jar lib/jackson-databind-2.10.3.ja
+ r lib/jackson-core-2.10.3.jar lib/bcpkix-jdk18on-1.75.jar lib/bcprov-jd
+ k18on-1.75.jar lib/bcutil-jdk18on-1.75.jar lib/jcl-over-slf4j-1.7.30.ja
+ r lib/docker-java-transport-httpclient5-3.3.3.jar lib/docker-java-trans
+ port-3.3.3.jar lib/jna-5.12.1.jar lib/dec-0.1.2.jar lib/commons-lang3-3
+ .13.0.jar lib/httpclient5-5.2.1.jar lib/httpcore5-5.2.jar lib/httpcore5
+ -h2-5.2.jar
+Main-Class: com.mycompany.app.App
+Created-By: Maven Integration for Eclipse
+

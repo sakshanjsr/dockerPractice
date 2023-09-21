@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Sep 10 09:50:32 IST 2023</td>
+<td>Started on:</td><td>Thu Sep 21 18:40:32 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>90 seconds (90834 ms)</td>
+<tr><td>Total time:</td><td>13 seconds (13429 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,51 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Un-Successful Login", "Login to the Application"</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Your username is invaliddd!] but found [Your username is invalid!]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at stepDefinitions.login_stepDeff.check_after_assert(login_stepDeff.java:107)
-	at ✽.Check After Assert(file:///C:/Users/Sanjay%20Prasad/eclipse-workspace/allurecucumberProject_Docker/src/test/resources/features/loginPage.feature:16)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2102280782", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2102280782'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Your username is invaliddd!] but found [Your username is invalid!]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at stepDefinitions.login_stepDeff.check_after_assert(login_stepDeff.java:107)
-	at ✽.Check After Assert(file:///C:/Users/Sanjay%20Prasad/eclipse-workspace/allurecucumberProject_Docker/src/test/resources/features/loginPage.feature:16)
-</pre></div></td>
-<td>1</td>
-<td>runner.TestRunner@7a93b263</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Un-Successful Login", "Login to the Application"</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Your username is invaliddd!] but found [Your username is invalid!]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at stepDefinitions.login_stepDeff.check_after_assert(login_stepDeff.java:107)
-	at ✽.Check After Assert(file:///C:/Users/Sanjay%20Prasad/eclipse-workspace/allurecucumberProject_Docker/src/test/resources/features/loginPage.feature:16)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1150264921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1150264921'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Your username is invaliddd!] but found [Your username is invalid!]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at stepDefinitions.login_stepDeff.check_after_assert(login_stepDeff.java:107)
-	at ✽.Check After Assert(file:///C:/Users/Sanjay%20Prasad/eclipse-workspace/allurecucumberProject_Docker/src/test/resources/features/loginPage.feature:16)
-</pre></div></td>
-<td>1</td>
-<td>runner.TestRunner@7a93b263</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -121,20 +76,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Data Table", "Login to the Application"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@1706a5c9</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Un-Successful Login", "Login to the Application"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1706a5c9</td></tr>
+<tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Home Page", "Check Home Page"</td>
 <td></td>
 <td>3</td>
-<td>runner.TestRunner@7a93b263</td></tr>
+<td>runner.TestRunner@1706a5c9</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Data Table", "Login to the Application"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Un-Successful Login", "Login to the Application"</td>
 <td></td>
-<td>1</td>
-<td>runner.TestRunner@7a93b263</td></tr>
+<td>0</td>
+<td>runner.TestRunner@1706a5c9</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login", "Login to the Application"</td>
 <td></td>
-<td>9</td>
-<td>runner.TestRunner@7a93b263</td></tr>
+<td>4</td>
+<td>runner.TestRunner@1706a5c9</td></tr>
 </table><p>
 </body>
 </html>

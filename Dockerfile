@@ -1,4 +1,4 @@
-FROM maven:3.9.4-jdk-8-alpine
+FROM maven:3.3-jdk-8
 
 #copying src from framework
 COPY src /home/SeleniumDocker/src

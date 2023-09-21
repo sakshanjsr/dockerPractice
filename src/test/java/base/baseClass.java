@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -55,16 +57,16 @@ public class baseClass {
 //			System.out.println("No VNC URL : "+url );
 			
 			
-//			DesiredCapabilities dc = new DesiredCapabilities();
-//			dc.setBrowserName("chrome");
-//			dc.setPlatform(Platform.LINUX);
-//			URL url = new URL("http://localhost:4444/wd/hub");
-//			driver = new RemoteWebDriver(url, dc);
-//			System.out.println("CHROME Driver Initialized");
+			DesiredCapabilities dc = new DesiredCapabilities();
+			dc.setBrowserName("chrome");
+			dc.setPlatform(Platform.LINUX);
+			URL url = new URL("http://localhost:4444/wd/hub");
+			driver = new RemoteWebDriver(url, dc);
+			System.out.println("CHROME Driver Initialized");
 			
-			
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+
+//			WebDriverManager.chromedriver().setup();
+//			driver = new ChromeDriver();
 			
 		}if(browser.equalsIgnoreCase("firefox")) {
 			DesiredCapabilities dc = new DesiredCapabilities();

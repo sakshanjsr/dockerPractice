@@ -1,22 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 24.30 s <<< FAILURE! -- in TestSuite
-runner.TestRunner.runScenario["Un-Successful Login", "Login to the Application"](3) -- Time elapsed: 1.217 s <<< FAILURE!
-java.lang.AssertionError: 
-The following asserts failed:
-	expected [Your username is invaliddd!] but found [Your username is invalid!]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at stepDefinitions.login_stepDeff.check_after_assert(login_stepDeff.java:107)
-	at ✽.Check After Assert(file:///C:/Users/Sanjay%20Prasad/eclipse-workspace/allurecucumberProject_Docker/src/test/resources/features/loginPage.feature:16)
-
-runner.TestRunner.runScenario["Un-Successful Login", "Login to the Application"](4) -- Time elapsed: 5.136 s <<< FAILURE!
-java.lang.AssertionError: 
-The following asserts failed:
-	expected [Your username is invaliddd!] but found [Your username is invalid!]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at stepDefinitions.login_stepDeff.check_after_assert(login_stepDeff.java:107)
-	at ✽.Check After Assert(file:///C:/Users/Sanjay%20Prasad/eclipse-workspace/allurecucumberProject_Docker/src/test/resources/features/loginPage.feature:16)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.03 s -- in TestSuite

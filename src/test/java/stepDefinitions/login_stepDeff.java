@@ -98,7 +98,7 @@ public class login_stepDeff extends baseClass{
 		wait.until(ExpectedConditions.visibilityOf(msg));
 		String invalidLogin = msg.getText();
 		System.out.println("invalidLogin msg : "+invalidLogin);
-		soft.assertEquals(invalidLogin , "Your username is invaliddd!");
+		soft.assertEquals(invalidLogin , "Your username is invalid!");
 	}
 	
 	@Then("Check After Assert")
